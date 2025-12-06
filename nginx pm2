@@ -1,0 +1,5 @@
+pm2 start npm --name noumedical-frontend --cwd /var/www/noumedical/noumedical.ca/noumedical.ca/ -- start
+
+pm2 save
+pm2 startup systemd
+pm2 list
